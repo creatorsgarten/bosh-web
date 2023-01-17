@@ -1,0 +1,42 @@
+{
+  "name": "bosh-web",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.25.0",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "lint": "eslint . --fix",
+    "fmt:check": "prettier --check \"**/*.{ts,tsx,md,json}\"",
+    "fmt": "prettier --write \"**/*.{ts,tsx,md,json}\""
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.0",
+    "@solidjs/router": "^0.6.0",
+    "solid-js": "^1.6.2",
+    "solid-start": "^0.2.0",
+    "undici": "^5.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "esbuild": "^0.14.54",
+    "eslint": "^8.32.0",
+    "eslint-plugin-solid": "^0.9.3",
+    "postcss": "^8.4.18",
+    "prettier": "^2.8.3",
+    "solid-start-node": "^0.2.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
+    "vite-plugin-windicss": "^1.8.10",
+    "windicss": "^3.5.6"
+  }
+}
