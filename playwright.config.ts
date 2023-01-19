@@ -1,5 +1,5 @@
-import type { PlaywrightTestConfig } from '@playwright/test';
-import { devices } from '@playwright/test';
+import type { PlaywrightTestConfig } from '@playwright/test'
+import { devices } from '@playwright/test'
 
 /**
  * Read environment variables from file.
@@ -40,7 +40,7 @@ const config: PlaywrightTestConfig = {
 
     trace: process.env.CI ? 'retain-on-failure' : 'on-first-retry',
     video: process.env.CI ? 'on' : 'off',
-    screenshot: process.env.CI ? 'on' : 'off',
+    screenshot: process.env.CI ? 'on' : 'off'
   },
 
   /* Configure projects for major browsers */
@@ -48,23 +48,23 @@ const config: PlaywrightTestConfig = {
     {
       name: 'chromium',
       use: {
-        ...devices['Desktop Chrome'],
-      },
+        ...devices['Desktop Chrome']
+      }
     },
 
     {
       name: 'firefox',
       use: {
-        ...devices['Desktop Firefox'],
-      },
+        ...devices['Desktop Firefox']
+      }
     },
 
     {
       name: 'webkit',
       use: {
-        ...devices['Desktop Safari'],
-      },
-    },
+        ...devices['Desktop Safari']
+      }
+    }
 
     /* Test against mobile viewports. */
     // {
@@ -100,10 +100,10 @@ const config: PlaywrightTestConfig = {
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'rnpm run start',
+    command: 'pnpm run start',
     port: 3000,
-    reuseExistingServer: true,
-  },
-};
+    reuseExistingServer: true
+  }
+}
 
-export default config;
+export default config
