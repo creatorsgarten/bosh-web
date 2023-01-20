@@ -13,7 +13,7 @@ specifiers:
   postcss: 8.4.21
   prettier: 2.8.3
   solid-js: 1.6.9
-  solid-start: 0.2.13
+  solid-start: 0.2.15
   solid-start-node: 0.2.15
   typescript: 4.9.4
   undici: 5.15.0
@@ -25,7 +25,7 @@ dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.9
   '@solidjs/router': 0.6.0_solid-js@1.6.9
   solid-js: 1.6.9
-  solid-start: 0.2.13_6fyhuzsu6gmjnsielbc5mndpca
+  solid-start: 0.2.15_6fyhuzsu6gmjnsielbc5mndpca
   undici: 5.15.0
 
 devDependencies:
@@ -38,7 +38,7 @@ devDependencies:
   eslint-plugin-solid: 0.9.3_7uibuqfxkfaozanbtbziikiqje
   postcss: 8.4.21
   prettier: 2.8.3
-  solid-start-node: 0.2.15_wev6w3vg5wtjbudl5fnlcetu6e
+  solid-start-node: 0.2.15_be2vzlimvokpt5qkyfpxrhmfxi
   typescript: 4.9.4
   vite: 3.2.5_@types+node@18.11.18
   vite-plugin-windicss: 1.8.10_vite@3.2.5
@@ -3790,6 +3790,9 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
+  /set-cookie-parser/2.5.1:
+    resolution: {integrity: sha512-1jeBGaKNGdEq4FgIrORu/N570dwoPYio8lSoYLWmX7sQ//0JY08Xh9o5pBcgmHQ/MbsYp/aZnOe1s1lIsbLprQ==}
+
   /shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -3838,7 +3841,7 @@ packages:
       '@babel/types': 7.20.7
       solid-js: 1.6.9
 
-  /solid-start-node/0.2.15_wev6w3vg5wtjbudl5fnlcetu6e:
+  /solid-start-node/0.2.15_be2vzlimvokpt5qkyfpxrhmfxi:
     resolution: {integrity: sha512-87Iy4w+38tAd3lL61E7FoPJA3oYRux1jAefAw0r6SeOKnOw0Ea6xKeECNeTHP+aWt67UOf6502pykbiOZOnHKA==}
     peerDependencies:
       solid-start: '*'
@@ -3852,7 +3855,7 @@ packages:
       polka: 1.0.0-next.22
       rollup: 2.79.1
       sirv: 2.0.2
-      solid-start: 0.2.13_6fyhuzsu6gmjnsielbc5mndpca
+      solid-start: 0.2.15_6fyhuzsu6gmjnsielbc5mndpca
       terser: 5.16.1
       undici: 5.15.0
       vite: 3.2.5_@types+node@18.11.18
@@ -3860,8 +3863,8 @@ packages:
       - supports-color
     dev: true
 
-  /solid-start/0.2.13_6fyhuzsu6gmjnsielbc5mndpca:
-    resolution: {integrity: sha512-tjEwjuuhgm2MEUVYeoiKNm2JsVO5SN4UbsK6H9ptwHM1aOYST8eViQ6HcXuq7MHa6BHRUnHbIEeOSTLBKoK1wg==}
+  /solid-start/0.2.15_6fyhuzsu6gmjnsielbc5mndpca:
+    resolution: {integrity: sha512-G5xDoFeOJ/jHpvs134LWP52+EPNHSnsAgqgMIw7CMAy2Tvr0S0+0U3rUzj+yoDmTtoEAW69wPdgoawYBRiaGiA==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
@@ -3895,6 +3898,7 @@ packages:
       rollup-plugin-visualizer: 5.9.0_rollup@2.79.1
       rollup-route-manifest: 1.0.0_rollup@2.79.1
       sade: 1.8.1
+      set-cookie-parser: 2.5.1
       sirv: 2.0.2
       solid-js: 1.6.9
       terser: 5.16.1
@@ -4130,7 +4134,7 @@ packages:
     dev: true
 
   /utils-merge/1.0.1:
-    resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
+    resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
   /validate-html-nesting/1.2.0:
