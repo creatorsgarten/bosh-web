@@ -1,19 +1,20 @@
 import { defineConfig } from 'vite'
 import solid from 'solid-start/vite'
+import staticAdapter from 'solid-start-static'
 import WindiCSS from 'vite-plugin-windicss'
 
 export default defineConfig({
   plugins: [
-    solid(),
+    solid({
+      adapter: staticAdapter()
+    }),
     WindiCSS({
       scan: {
         fileExtensions: ['html', 'js', 'ts', 'jsx', 'tsx']
       }
     })
   ],
-  server: {
-    port: 3000
-  },
+
   build: {
     minify: true,
     sourcemap: false,
