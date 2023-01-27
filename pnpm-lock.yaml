@@ -17,7 +17,7 @@ specifiers:
   solid-start-node: 0.2.15
   solid-start-static: ^0.2.16
   typescript: 4.9.4
-  undici: 5.15.0
+  undici: 5.16.0
   vite: 3.2.5
   vite-plugin-windicss: 1.8.10
   windicss: 3.5.6
@@ -27,7 +27,7 @@ dependencies:
   '@solidjs/router': 0.7.0_solid-js@1.6.9
   solid-js: 1.6.9
   solid-start: 0.2.15_55umyvmfaswzxpylft3tvr3dvm
-  undici: 5.15.0
+  undici: 5.16.0
 
 devDependencies:
   '@playwright/test': 1.29.2
@@ -39,8 +39,8 @@ devDependencies:
   eslint-plugin-solid: 0.9.3_7uibuqfxkfaozanbtbziikiqje
   postcss: 8.4.21
   prettier: 2.8.3
-  solid-start-node: 0.2.15_be2vzlimvokpt5qkyfpxrhmfxi
-  solid-start-static: 0.2.16_be2vzlimvokpt5qkyfpxrhmfxi
+  solid-start-node: 0.2.15_o5yjodvidzjaq2c5blreoeivfe
+  solid-start-static: 0.2.16_o5yjodvidzjaq2c5blreoeivfe
   typescript: 4.9.4
   vite: 3.2.5_@types+node@18.11.18
   vite-plugin-windicss: 1.8.10_vite@3.2.5
@@ -3959,7 +3959,7 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-node/0.2.15_be2vzlimvokpt5qkyfpxrhmfxi:
+  /solid-start-node/0.2.15_o5yjodvidzjaq2c5blreoeivfe:
     resolution: {integrity: sha512-87Iy4w+38tAd3lL61E7FoPJA3oYRux1jAefAw0r6SeOKnOw0Ea6xKeECNeTHP+aWt67UOf6502pykbiOZOnHKA==}
     peerDependencies:
       solid-start: '*'
@@ -3975,13 +3975,13 @@ packages:
       sirv: 2.0.2
       solid-start: 0.2.15_55umyvmfaswzxpylft3tvr3dvm
       terser: 5.16.1
-      undici: 5.15.0
+      undici: 5.16.0
       vite: 3.2.5_@types+node@18.11.18
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /solid-start-static/0.2.16_be2vzlimvokpt5qkyfpxrhmfxi:
+  /solid-start-static/0.2.16_o5yjodvidzjaq2c5blreoeivfe:
     resolution: {integrity: sha512-AJkz9uvRPi93ccIMxaBoa7RUPPBTaz/gVnTLi1PtVL1fOShbmA3BWO5AmtiyG2qp0UjA3ygyMAjws5cpNx/cyg==}
     peerDependencies:
       solid-start: '*'
@@ -3995,7 +3995,7 @@ packages:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
       solid-start: 0.2.15_55umyvmfaswzxpylft3tvr3dvm
-      undici: 5.15.0
+      undici: 5.16.0
       vite: 3.2.5_@types+node@18.11.18
     dev: true
 
@@ -4038,7 +4038,7 @@ packages:
       sirv: 2.0.2
       solid-js: 1.6.9
       terser: 5.16.1
-      undici: 5.15.0
+      undici: 5.16.0
       vite: 3.2.5_@types+node@18.11.18
       vite-plugin-inspect: 0.7.14_rollup@2.79.1+vite@3.2.5
       vite-plugin-solid: 2.5.0_solid-js@1.6.9+vite@3.2.5
@@ -4225,8 +4225,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici/5.15.0:
-    resolution: {integrity: sha512-wCAZJDyjw9Myv+Ay62LAoB+hZLPW9SmKbQkbHIhMw/acKSlpn7WohdMUc/Vd4j1iSMBO0hWwU8mjB7a5p5bl8g==}
+  /undici/5.16.0:
+    resolution: {integrity: sha512-KWBOXNv6VX+oJQhchXieUznEmnJMqgXMbs0xxH2t8q/FUAWSJvOSr/rMaZKnX5RIVq7JDn0JbP4BOnKG2SGXLQ==}
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0

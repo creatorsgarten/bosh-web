@@ -22,7 +22,7 @@
     "@solidjs/router": "0.7.0",
     "solid-js": "1.6.9",
     "solid-start": "0.2.15",
-    "undici": "5.15.0"
+    "undici": "5.16.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.29.2",
