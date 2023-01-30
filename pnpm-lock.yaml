@@ -14,7 +14,7 @@ specifiers:
   prettier: 2.8.3
   solid-js: 1.6.9
   solid-start: 0.2.16
-  solid-start-node: 0.2.16
+  solid-start-node: 0.2.17
   solid-start-static: ^0.2.16
   typescript: 4.9.4
   undici: 5.16.0
@@ -39,7 +39,7 @@ devDependencies:
   eslint-plugin-solid: 0.9.4_zkdaqh7it7uc4cvz2haft7rc6u
   postcss: 8.4.21
   prettier: 2.8.3
-  solid-start-node: 0.2.16_x6yr7zg5vouej5zubu7gwoyp3m
+  solid-start-node: 0.2.17_x6yr7zg5vouej5zubu7gwoyp3m
   solid-start-static: 0.2.16_x6yr7zg5vouej5zubu7gwoyp3m
   typescript: 4.9.4
   vite: 4.0.4_@types+node@18.11.18
@@ -1668,6 +1668,21 @@ packages:
       rollup: 3.10.0
     dev: true
 
+  /@rollup/plugin-node-resolve/13.3.0_rollup@3.10.0:
+    resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
+    engines: {node: '>= 10.0.0'}
+    peerDependencies:
+      rollup: ^2.42.0
+    dependencies:
+      '@rollup/pluginutils': 3.1.0_rollup@3.10.0
+      '@types/resolve': 1.17.1
+      deepmerge: 4.2.2
+      is-builtin-module: 3.2.0
+      is-module: 1.0.0
+      resolve: 1.22.1
+      rollup: 3.10.0
+    dev: true
+
   /@rollup/plugin-node-resolve/15.0.1_rollup@3.10.0:
     resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
     engines: {node: '>=14.0.0'}
@@ -1683,6 +1698,18 @@ packages:
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
+      rollup: 3.10.0
+    dev: true
+
+  /@rollup/pluginutils/3.1.0_rollup@3.10.0:
+    resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
+    engines: {node: '>= 8.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0
+    dependencies:
+      '@types/estree': 0.0.39
+      estree-walker: 1.0.1
+      picomatch: 2.3.1
       rollup: 3.10.0
     dev: true
 
@@ -1728,6 +1755,10 @@ packages:
   /@types/cookie/0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
 
+  /@types/estree/0.0.39:
+    resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
+    dev: true
+
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
 
@@ -1737,6 +1768,12 @@ packages:
 
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+
+  /@types/resolve/1.17.1:
+    resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
+    dependencies:
+      '@types/node': 18.11.18
+    dev: true
 
   /@types/resolve/1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -2775,6 +2812,10 @@ packages:
   /estraverse/5.3.0:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
+    dev: true
+
+  /estree-walker/1.0.1:
+    resolution: {integrity: sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==}
     dev: true
 
   /estree-walker/2.0.2:
@@ -3887,8 +3928,8 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-node/0.2.16_x6yr7zg5vouej5zubu7gwoyp3m:
-    resolution: {integrity: sha512-kOxrBl1G18Y9z3KDr/ZMnJhUQDe9PhmkxaXbKxYRxtyG1hW7ZeAw49Hw8fPVLX+CbQVA6Zq8Mv1SUXA41Ct2IA==}
+  /solid-start-node/0.2.17_x6yr7zg5vouej5zubu7gwoyp3m:
+    resolution: {integrity: sha512-DRVKO9Tyd3PL6L4/1CGRBIHvDz6QutEqUdtGMud7U2+JG9kjczwoX1/guemrq/hpRMsvO/f/lXSccXvoUKHiqg==}
     peerDependencies:
       solid-start: '*'
       undici: ^5.8.0
@@ -3896,7 +3937,7 @@ packages:
     dependencies:
       '@rollup/plugin-commonjs': 24.0.0_rollup@3.10.0
       '@rollup/plugin-json': 6.0.0_rollup@3.10.0
-      '@rollup/plugin-node-resolve': 15.0.1_rollup@3.10.0
+      '@rollup/plugin-node-resolve': 13.3.0_rollup@3.10.0
       compression: 1.7.4
       polka: 1.0.0-next.22
       rollup: 3.10.0
