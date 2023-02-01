@@ -14,7 +14,7 @@ specifiers:
   prettier: 2.8.3
   solid-js: 1.6.10
   solid-start: 0.2.17
-  solid-start-node: 0.2.17
+  solid-start-node: 0.2.18
   solid-start-static: ^0.2.16
   typescript: 4.9.5
   undici: 5.16.0
@@ -39,7 +39,7 @@ devDependencies:
   eslint-plugin-solid: 0.9.4_4vsywjlpuriuw3tl5oq6zy5a64
   postcss: 8.4.21
   prettier: 2.8.3
-  solid-start-node: 0.2.17_a2f5ptxtizw7nyv3sjrz67tunm
+  solid-start-node: 0.2.18_a2f5ptxtizw7nyv3sjrz67tunm
   solid-start-static: 0.2.16_a2f5ptxtizw7nyv3sjrz67tunm
   typescript: 4.9.5
   vite: 4.0.4_@types+node@18.11.18
@@ -3991,8 +3991,8 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-node/0.2.17_a2f5ptxtizw7nyv3sjrz67tunm:
-    resolution: {integrity: sha512-DRVKO9Tyd3PL6L4/1CGRBIHvDz6QutEqUdtGMud7U2+JG9kjczwoX1/guemrq/hpRMsvO/f/lXSccXvoUKHiqg==}
+  /solid-start-node/0.2.18_a2f5ptxtizw7nyv3sjrz67tunm:
+    resolution: {integrity: sha512-gHjQggK1H9/oqJ65Djq9CYaNQJ9jLKYUjq8860LA8ugsi9sbV15uO1zqUC3E3+V+/wELGJOzSOA0vMvz2GsMMA==}
     peerDependencies:
       solid-start: '*'
       undici: ^5.8.0
