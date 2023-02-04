@@ -17,7 +17,7 @@ specifiers:
   solid-start-node: 0.2.19
   solid-start-static: ^0.2.16
   typescript: 4.9.5
-  undici: 5.16.0
+  undici: 5.17.1
   vite: 4.1.1
   vite-plugin-windicss: 1.8.10
   windicss: 3.5.6
@@ -27,7 +27,7 @@ dependencies:
   '@solidjs/router': 0.7.0_solid-js@1.6.10
   solid-js: 1.6.10
   solid-start: 0.2.19_xj6f3qupzeleg2ggykl2rovl4e
-  undici: 5.16.0
+  undici: 5.17.1
 
 devDependencies:
   '@playwright/test': 1.29.2
@@ -39,8 +39,8 @@ devDependencies:
   eslint-plugin-solid: 0.9.4_4vsywjlpuriuw3tl5oq6zy5a64
   postcss: 8.4.21
   prettier: 2.8.3
-  solid-start-node: 0.2.19_xvlre7vt3a32laae6qnzgrzk34
-  solid-start-static: 0.2.16_xvlre7vt3a32laae6qnzgrzk34
+  solid-start-node: 0.2.19_rg6vjlj732tamaqsgm6ga6he3q
+  solid-start-static: 0.2.16_rg6vjlj732tamaqsgm6ga6he3q
   typescript: 4.9.5
   vite: 4.1.1_@types+node@18.11.18
   vite-plugin-windicss: 1.8.10_vite@4.1.1
@@ -3991,7 +3991,7 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-node/0.2.19_xvlre7vt3a32laae6qnzgrzk34:
+  /solid-start-node/0.2.19_rg6vjlj732tamaqsgm6ga6he3q:
     resolution: {integrity: sha512-5Rtlh4PKm6zDuvFoPzf8xEzz5ca35uoyCeHbEqhcVnD9OqqhW8iKevaoNwlJ3Vm9yZHP53SWcS6F3e/KOnvBpA==}
     peerDependencies:
       solid-start: '*'
@@ -4007,13 +4007,13 @@ packages:
       sirv: 2.0.2
       solid-start: 0.2.19_xj6f3qupzeleg2ggykl2rovl4e
       terser: 5.16.1
-      undici: 5.16.0
+      undici: 5.17.1
       vite: 4.1.1_@types+node@18.11.18
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /solid-start-static/0.2.16_xvlre7vt3a32laae6qnzgrzk34:
+  /solid-start-static/0.2.16_rg6vjlj732tamaqsgm6ga6he3q:
     resolution: {integrity: sha512-AJkz9uvRPi93ccIMxaBoa7RUPPBTaz/gVnTLi1PtVL1fOShbmA3BWO5AmtiyG2qp0UjA3ygyMAjws5cpNx/cyg==}
     peerDependencies:
       solid-start: '*'
@@ -4027,7 +4027,7 @@ packages:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
       solid-start: 0.2.19_xj6f3qupzeleg2ggykl2rovl4e
-      undici: 5.16.0
+      undici: 5.17.1
       vite: 4.1.1_@types+node@18.11.18
     dev: true
 
@@ -4070,7 +4070,7 @@ packages:
       sirv: 2.0.2
       solid-js: 1.6.10
       terser: 5.16.1
-      undici: 5.16.0
+      undici: 5.17.1
       vite: 4.1.1_@types+node@18.11.18
       vite-plugin-inspect: 0.7.14_rollup@3.10.0+vite@4.1.1
       vite-plugin-solid: 2.5.0_solid-js@1.6.10+vite@4.1.1
@@ -4257,8 +4257,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici/5.16.0:
-    resolution: {integrity: sha512-KWBOXNv6VX+oJQhchXieUznEmnJMqgXMbs0xxH2t8q/FUAWSJvOSr/rMaZKnX5RIVq7JDn0JbP4BOnKG2SGXLQ==}
+  /undici/5.17.1:
+    resolution: {integrity: sha512-qMwK+1tmJ6DsMlsl/AYsZXnkIraXmQzzBuPSiQXP6q0WvNO+dwfiBAhjZWmxxW4N0PS31fzB6ulDOUS6cv8oKw==}
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
