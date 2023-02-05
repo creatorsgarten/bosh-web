@@ -4,7 +4,7 @@ specifiers:
   '@playwright/test': ^1.29.2
   '@solidjs/meta': 0.28.2
   '@solidjs/router': 0.7.0
-  '@types/node': 18.11.18
+  '@types/node': 18.11.19
   '@typescript-eslint/eslint-plugin': 5.50.0
   '@typescript-eslint/parser': 5.50.0
   esbuild: 0.17.5
@@ -31,7 +31,7 @@ dependencies:
 
 devDependencies:
   '@playwright/test': 1.29.2
-  '@types/node': 18.11.18
+  '@types/node': 18.11.19
   '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
   '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
   esbuild: 0.17.5
@@ -42,7 +42,7 @@ devDependencies:
   solid-start-node: 0.2.19_rg6vjlj732tamaqsgm6ga6he3q
   solid-start-static: 0.2.16_rg6vjlj732tamaqsgm6ga6he3q
   typescript: 4.9.5
-  vite: 4.1.1_@types+node@18.11.18
+  vite: 4.1.1_@types+node@18.11.19
   vite-plugin-windicss: 1.8.10_vite@4.1.1
   windicss: 3.5.6
 
@@ -1630,7 +1630,7 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
       playwright-core: 1.29.2
     dev: true
 
@@ -1766,13 +1766,13 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/18.11.19:
+    resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
     dev: true
 
   /@types/resolve/1.20.2:
@@ -4008,7 +4008,7 @@ packages:
       solid-start: 0.2.19_xj6f3qupzeleg2ggykl2rovl4e
       terser: 5.16.1
       undici: 5.17.1
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4028,7 +4028,7 @@ packages:
       solid-ssr: 1.6.3
       solid-start: 0.2.19_xj6f3qupzeleg2ggykl2rovl4e
       undici: 5.17.1
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
     dev: true
 
   /solid-start/0.2.19_xj6f3qupzeleg2ggykl2rovl4e:
@@ -4071,7 +4071,7 @@ packages:
       solid-js: 1.6.10
       terser: 5.16.1
       undici: 5.17.1
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
       vite-plugin-inspect: 0.7.14_rollup@3.10.0+vite@4.1.1
       vite-plugin-solid: 2.5.0_solid-js@1.6.10+vite@4.1.1
       wait-on: 6.0.1_debug@4.3.4
@@ -4330,7 +4330,7 @@ packages:
       kolorist: 1.6.0
       sirv: 2.0.2
       ufo: 1.0.1
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4347,7 +4347,7 @@ packages:
       merge-anything: 5.1.4
       solid-js: 1.6.10
       solid-refresh: 0.4.2_solid-js@1.6.10
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
       vitefu: 0.2.4_vite@4.1.1
     transitivePeerDependencies:
       - supports-color
@@ -4360,13 +4360,13 @@ packages:
       '@windicss/plugin-utils': 1.8.10
       debug: 4.3.4
       kolorist: 1.6.0
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.1.1_@types+node@18.11.18:
+  /vite/4.1.1_@types+node@18.11.19:
     resolution: {integrity: sha512-LM9WWea8vsxhr782r9ntg+bhSFS06FJgCvvB0+8hf8UWtvaiDagKYWXndjfX6kGl74keHJUcpzrQliDXZlF5yg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4391,7 +4391,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.18
+      '@types/node': 18.11.19
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
@@ -4407,7 +4407,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.1.1_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.19
 
   /wait-on/6.0.1_debug@4.3.4:
     resolution: {integrity: sha512-zht+KASY3usTY5u2LgaNqn/Cd8MukxLGjdcZxT2ns5QzDmTFc4XoWBgC+C/na+sMRZTuVygQoMYwdcVjHnYIVw==}
