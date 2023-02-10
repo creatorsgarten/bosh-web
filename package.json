@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "5.51.0",
     "@typescript-eslint/parser": "5.51.0",
     "esbuild": "0.17.7",
-    "eslint": "8.33.0",
+    "eslint": "8.34.0",
     "eslint-plugin-solid": "0.9.4",
     "postcss": "8.4.21",
     "prettier": "2.8.4",
