@@ -17,7 +17,7 @@ specifiers:
   solid-start-node: 0.2.20
   solid-start-static: ^0.2.16
   typescript: 4.9.5
-  undici: 5.18.0
+  undici: 5.19.1
   vite: 4.1.1
   vite-plugin-windicss: 1.8.10
   windicss: 3.5.6
@@ -27,7 +27,7 @@ dependencies:
   '@solidjs/router': 0.7.0_solid-js@1.6.10
   solid-js: 1.6.10
   solid-start: 0.2.20_thei67vwsuehmnhzypyewe5bvm
-  undici: 5.18.0
+  undici: 5.19.1
 
 devDependencies:
   '@playwright/test': 1.30.0
@@ -39,8 +39,8 @@ devDependencies:
   eslint-plugin-solid: 0.9.4_7kw3g6rralp5ps6mg3uyzz6azm
   postcss: 8.4.21
   prettier: 2.8.4
-  solid-start-node: 0.2.20_d44fryt6gonfnnouvvkoz7m23a
-  solid-start-static: 0.2.20_d44fryt6gonfnnouvvkoz7m23a
+  solid-start-node: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
+  solid-start-static: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
   typescript: 4.9.5
   vite: 4.1.1_@types+node@18.13.0
   vite-plugin-windicss: 1.8.10_vite@4.1.1
@@ -3876,7 +3876,7 @@ packages:
   /solid-ssr/1.6.3:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
 
-  /solid-start-node/0.2.20_d44fryt6gonfnnouvvkoz7m23a:
+  /solid-start-node/0.2.20_wjd63lm6z2usfh6nxpfiv5vake:
     resolution: {integrity: sha512-MWpaJKgy5OgdQHpN1cS9nQy3NEgD6QeViGc6AKP0PvowsZ4k+lPI1eT2JyObfLh4PUT9qABhVh8g1jctBra6CA==}
     peerDependencies:
       solid-start: '*'
@@ -3892,12 +3892,12 @@ packages:
       sirv: 2.0.2
       solid-start: 0.2.20_thei67vwsuehmnhzypyewe5bvm
       terser: 5.16.3
-      undici: 5.18.0
+      undici: 5.19.1
       vite: 4.1.1_@types+node@18.13.0
     transitivePeerDependencies:
       - supports-color
 
-  /solid-start-static/0.2.20_d44fryt6gonfnnouvvkoz7m23a:
+  /solid-start-static/0.2.20_wjd63lm6z2usfh6nxpfiv5vake:
     resolution: {integrity: sha512-gIYfb7hLOBuvegDeZ8uHPktsz+lb7XvlTsgTUaQtNEQ8grBh/mBgi69krn0+yA8r4XquFfEPPX4p2i0O40JgoA==}
     peerDependencies:
       solid-start: '*'
@@ -3911,7 +3911,7 @@ packages:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
       solid-start: 0.2.20_thei67vwsuehmnhzypyewe5bvm
-      undici: 5.18.0
+      undici: 5.19.1
       vite: 4.1.1_@types+node@18.13.0
 
   /solid-start/0.2.20_thei67vwsuehmnhzypyewe5bvm:
@@ -3977,10 +3977,10 @@ packages:
       set-cookie-parser: 2.5.1
       sirv: 2.0.2
       solid-js: 1.6.10
-      solid-start-node: 0.2.20_d44fryt6gonfnnouvvkoz7m23a
-      solid-start-static: 0.2.20_d44fryt6gonfnnouvvkoz7m23a
+      solid-start-node: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
+      solid-start-static: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
       terser: 5.16.3
-      undici: 5.18.0
+      undici: 5.19.1
       vite: 4.1.1_@types+node@18.13.0
       vite-plugin-inspect: 0.7.15_rollup@3.15.0+vite@4.1.1
       vite-plugin-solid: 2.5.0_solid-js@1.6.10+vite@4.1.1
@@ -4165,8 +4165,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici/5.18.0:
-    resolution: {integrity: sha512-1iVwbhonhFytNdg0P4PqyIAXbdlVZVebtPDvuM36m66mRw4OGrCm2MYynJv/UENFLdP13J1nPVQzVE2zTs1OeA==}
+  /undici/5.19.1:
+    resolution: {integrity: sha512-YiZ61LPIgY73E7syxCDxxa3LV2yl3sN8spnIuTct60boiiRaE1J8mNWHO8Im2Zi/sFrPusjLlmRPrsyraSqX6A==}
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
