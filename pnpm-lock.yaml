@@ -14,7 +14,7 @@ specifiers:
   prettier: 2.8.4
   solid-js: 1.6.11
   solid-start: 0.2.20
-  solid-start-node: 0.2.20
+  solid-start-node: 0.2.21
   solid-start-static: ^0.2.16
   typescript: 4.9.5
   undici: 5.19.1
@@ -26,7 +26,7 @@ dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.11
   '@solidjs/router': 0.7.0_solid-js@1.6.11
   solid-js: 1.6.11
-  solid-start: 0.2.20_54iz5ryt4cdb6z7owwzozfzyy4
+  solid-start: 0.2.20_yzcbv3yt4gbegprotvuuy5iadq
   undici: 5.19.1
 
 devDependencies:
@@ -39,7 +39,7 @@ devDependencies:
   eslint-plugin-solid: 0.9.4_7kw3g6rralp5ps6mg3uyzz6azm
   postcss: 8.4.21
   prettier: 2.8.4
-  solid-start-node: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
+  solid-start-node: 0.2.21_wjd63lm6z2usfh6nxpfiv5vake
   solid-start-static: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
   typescript: 4.9.5
   vite: 4.1.1_@types+node@18.13.0
@@ -3938,8 +3938,8 @@ packages:
   /solid-ssr/1.6.3:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
 
-  /solid-start-node/0.2.20_wjd63lm6z2usfh6nxpfiv5vake:
-    resolution: {integrity: sha512-MWpaJKgy5OgdQHpN1cS9nQy3NEgD6QeViGc6AKP0PvowsZ4k+lPI1eT2JyObfLh4PUT9qABhVh8g1jctBra6CA==}
+  /solid-start-node/0.2.21_wjd63lm6z2usfh6nxpfiv5vake:
+    resolution: {integrity: sha512-DmmJT6K+uF0yLPkn1GQvIHmZRUdYlQwBijruvCiEWuy3d1sLedRnP22K/+u9eKqm8ruFOTQHrc/1wuGVcj3JXg==}
     peerDependencies:
       solid-start: '*'
       undici: ^5.8.0
@@ -3952,7 +3952,7 @@ packages:
       polka: 1.0.0-next.22
       rollup: 3.15.0
       sirv: 2.0.2
-      solid-start: 0.2.20_54iz5ryt4cdb6z7owwzozfzyy4
+      solid-start: 0.2.20_yzcbv3yt4gbegprotvuuy5iadq
       terser: 5.16.3
       undici: 5.19.1
       vite: 4.1.1_@types+node@18.13.0
@@ -3972,11 +3972,11 @@ packages:
       rollup: 3.15.0
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.20_54iz5ryt4cdb6z7owwzozfzyy4
+      solid-start: 0.2.20_yzcbv3yt4gbegprotvuuy5iadq
       undici: 5.19.1
       vite: 4.1.1_@types+node@18.13.0
 
-  /solid-start/0.2.20_54iz5ryt4cdb6z7owwzozfzyy4:
+  /solid-start/0.2.20_yzcbv3yt4gbegprotvuuy5iadq:
     resolution: {integrity: sha512-vYSFqVAKNMUa/NOuJmP+FCgGFiLCDSrRhlvjmTWTVgY8sD4exycTPapQAQWAwUU/4KhPv5oimtVaOz6TUtxOzA==}
     hasBin: true
     peerDependencies:
@@ -4039,7 +4039,7 @@ packages:
       set-cookie-parser: 2.5.1
       sirv: 2.0.2
       solid-js: 1.6.11
-      solid-start-node: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
+      solid-start-node: 0.2.21_wjd63lm6z2usfh6nxpfiv5vake
       solid-start-static: 0.2.20_wjd63lm6z2usfh6nxpfiv5vake
       terser: 5.16.3
       undici: 5.19.1
