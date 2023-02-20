@@ -29,7 +29,7 @@
     "@types/node": "18.14.0",
     "@typescript-eslint/eslint-plugin": "5.52.0",
     "@typescript-eslint/parser": "5.52.0",
-    "esbuild": "0.17.9",
+    "esbuild": "0.17.10",
     "eslint": "8.34.0",
     "eslint-plugin-solid": "0.10.0",
     "postcss": "8.4.21",
