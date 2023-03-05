@@ -13,7 +13,7 @@ specifiers:
   postcss: 8.4.21
   prettier: 2.8.4
   solid-js: 1.6.11
-  solid-start: 0.2.22
+  solid-start: 0.2.23
   solid-start-node: 0.2.23
   solid-start-static: ^0.2.16
   typescript: 4.9.5
@@ -26,7 +26,7 @@ dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.11
   '@solidjs/router': 0.7.0_solid-js@1.6.11
   solid-js: 1.6.11
-  solid-start: 0.2.22_upb5toglu6zw27jbile2yt6tuq
+  solid-start: 0.2.23_upb5toglu6zw27jbile2yt6tuq
   undici: 5.20.0
 
 devDependencies:
@@ -39,8 +39,8 @@ devDependencies:
   eslint-plugin-solid: 0.10.0_ycpbpc6yetojsgtrx3mwntkhsu
   postcss: 8.4.21
   prettier: 2.8.4
-  solid-start-node: 0.2.23_ppwjshleycygoco43sslduznmy
-  solid-start-static: 0.2.22_ppwjshleycygoco43sslduznmy
+  solid-start-node: 0.2.23_khi2xaawkj47umidgojilh44pe
+  solid-start-static: 0.2.22_khi2xaawkj47umidgojilh44pe
   typescript: 4.9.5
   vite: 4.1.4_@types+node@18.14.6
   vite-plugin-windicss: 1.8.10_vite@4.1.4
@@ -1740,6 +1740,31 @@ packages:
       solid-js: ^1.5.3
     dependencies:
       solid-js: 1.6.11
+
+  /@types/babel__core/7.20.0:
+    resolution: {integrity: sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ==}
+    dependencies:
+      '@babel/parser': 7.21.2
+      '@babel/types': 7.21.2
+      '@types/babel__generator': 7.6.4
+      '@types/babel__template': 7.4.1
+      '@types/babel__traverse': 7.18.3
+
+  /@types/babel__generator/7.6.4:
+    resolution: {integrity: sha512-tFkciB9j2K755yrTALxD44McOrk+gfpIpvC3sxHjRawj6PfnQxrse4Clq5y/Rq+G3mrBurMax/lG8Qn2t9mSsg==}
+    dependencies:
+      '@babel/types': 7.21.2
+
+  /@types/babel__template/7.4.1:
+    resolution: {integrity: sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==}
+    dependencies:
+      '@babel/parser': 7.21.2
+      '@babel/types': 7.21.2
+
+  /@types/babel__traverse/7.18.3:
+    resolution: {integrity: sha512-1kbcJ40lLB7MHsj39U4Sh1uTd2E7rLEa79kmDpI6cy+XiXsteB3POdQomoq4FxszMrO3ZYchkhYJw7A2862b3w==}
+    dependencies:
+      '@babel/types': 7.21.2
 
   /@types/cookie/0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
@@ -3934,8 +3959,8 @@ packages:
     dependencies:
       csstype: 3.1.1
 
-  /solid-refresh/0.4.3_solid-js@1.6.11:
-    resolution: {integrity: sha512-7+4/gYsVi0BlM4PzT1PU1TB5nW3Hv8FWuB+Kw/ofWui7KQkWBf+dVZOrReQYHEmLCzytHUa2JysUXgzVALJmSw==}
+  /solid-refresh/0.5.1_solid-js@1.6.11:
+    resolution: {integrity: sha512-kzfcoUYW6ZOUvk/7trfRbwLLBkQmMT2kGJUy9UMPnniMRYaMmyckjCxg1GuXCoSkrC3Bu2NK39I3iPJZYfqDXw==}
     peerDependencies:
       solid-js: ^1.3
     dependencies:
@@ -3947,7 +3972,7 @@ packages:
   /solid-ssr/1.6.3:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
 
-  /solid-start-node/0.2.23_ppwjshleycygoco43sslduznmy:
+  /solid-start-node/0.2.23_khi2xaawkj47umidgojilh44pe:
     resolution: {integrity: sha512-lMDDd9fAtce+G2r8d7bO8NN0nfbYi3ZT/btAc/0wmTEWVhbfccuhnI9aC3jnPV9XdIKYfxE+3lQ5SaCahvTQ4g==}
     peerDependencies:
       solid-start: '*'
@@ -3961,14 +3986,14 @@ packages:
       polka: 1.0.0-next.22
       rollup: 3.17.3
       sirv: 2.0.2
-      solid-start: 0.2.22_upb5toglu6zw27jbile2yt6tuq
+      solid-start: 0.2.23_upb5toglu6zw27jbile2yt6tuq
       terser: 5.16.5
       undici: 5.20.0
       vite: 4.1.4_@types+node@18.14.6
     transitivePeerDependencies:
       - supports-color
 
-  /solid-start-static/0.2.22_ppwjshleycygoco43sslduznmy:
+  /solid-start-static/0.2.22_khi2xaawkj47umidgojilh44pe:
     resolution: {integrity: sha512-oweIT2DOJYwdV0Nvqyl9d1LdmATaQ14DzbdXdAFvTburjKi4TDPj4mV2BShIeufY3AkNGvm369PIB2CkuZkcjQ==}
     peerDependencies:
       solid-start: '*'
@@ -3981,12 +4006,12 @@ packages:
       rollup: 3.17.3
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.22_upb5toglu6zw27jbile2yt6tuq
+      solid-start: 0.2.23_upb5toglu6zw27jbile2yt6tuq
       undici: 5.20.0
       vite: 4.1.4_@types+node@18.14.6
 
-  /solid-start/0.2.22_upb5toglu6zw27jbile2yt6tuq:
-    resolution: {integrity: sha512-9SfYRNyXUMzNVBx13nzuOqAGGJdsSG1E6gIM3CRDl0x85Nt+1zQTm74rRsBVMecI2EgI0gFOUEKFVM/dP4x8yA==}
+  /solid-start/0.2.23_upb5toglu6zw27jbile2yt6tuq:
+    resolution: {integrity: sha512-dKTRFtpjskHFyLq9n6oJxqWHYL7H8w14y4+OgIR+57+lqb1N7289kZLTHrzWxWyzDkIG9V1s2MQtiDfIaBP/MQ==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
@@ -4000,7 +4025,7 @@ packages:
       solid-start-node: '*'
       solid-start-static: '*'
       solid-start-vercel: '*'
-      vite: ^3.1.8
+      vite: ^4.1.4
     peerDependenciesMeta:
       solid-start-aws:
         optional: true
@@ -4048,13 +4073,13 @@ packages:
       set-cookie-parser: 2.5.1
       sirv: 2.0.2
       solid-js: 1.6.11
-      solid-start-node: 0.2.23_ppwjshleycygoco43sslduznmy
-      solid-start-static: 0.2.22_ppwjshleycygoco43sslduznmy
+      solid-start-node: 0.2.23_khi2xaawkj47umidgojilh44pe
+      solid-start-static: 0.2.22_khi2xaawkj47umidgojilh44pe
       terser: 5.16.5
       undici: 5.20.0
       vite: 4.1.4_@types+node@18.14.6
       vite-plugin-inspect: 0.7.15_rollup@3.17.3+vite@4.1.4
-      vite-plugin-solid: 2.5.0_solid-js@1.6.11+vite@4.1.4
+      vite-plugin-solid: 2.6.1_solid-js@1.6.11+vite@4.1.4
       wait-on: 6.0.1_debug@4.3.4
     transitivePeerDependencies:
       - supports-color
@@ -4314,18 +4339,19 @@ packages:
       - rollup
       - supports-color
 
-  /vite-plugin-solid/2.5.0_solid-js@1.6.11+vite@4.1.4:
-    resolution: {integrity: sha512-VneGd3RyFJvwaiffsqgymeMaofn0IzQLPwDzafTV2f1agoWeeJlk5VrI5WqT9BTtLe69vNNbCJWqLhHr9fOdDw==}
+  /vite-plugin-solid/2.6.1_solid-js@1.6.11+vite@4.1.4:
+    resolution: {integrity: sha512-/khM/ha3B5/pTWQWVJd/0n6ODPIrOcajwhbrD8Gnv37XmJJssu+KA8ssN73raMIicf2eiQKiTAV39w7dSl4Irg==}
     peerDependencies:
       solid-js: ^1.3.17 || ^1.4.0 || ^1.5.0 || ^1.6.0
       vite: ^3.0.0 || ^4.0.0
     dependencies:
       '@babel/core': 7.21.0
       '@babel/preset-typescript': 7.21.0_@babel+core@7.21.0
+      '@types/babel__core': 7.20.0
       babel-preset-solid: 1.6.10_@babel+core@7.21.0
       merge-anything: 5.1.4
       solid-js: 1.6.11
-      solid-refresh: 0.4.3_solid-js@1.6.11
+      solid-refresh: 0.5.1_solid-js@1.6.11
       vite: 4.1.4_@types+node@18.14.6
       vitefu: 0.2.4_vite@4.1.4
     transitivePeerDependencies:
