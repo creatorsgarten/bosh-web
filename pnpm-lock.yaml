@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@playwright/test': ^1.29.2
   '@solidjs/meta': 0.28.2
-  '@solidjs/router': 0.7.0
+  '@solidjs/router': 0.8.0
   '@types/node': 18.15.0
   '@typescript-eslint/eslint-plugin': 5.54.1
   '@typescript-eslint/parser': 5.54.1
@@ -24,9 +24,9 @@ specifiers:
 
 dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.13
-  '@solidjs/router': 0.7.0_solid-js@1.6.13
+  '@solidjs/router': 0.8.0_solid-js@1.6.13
   solid-js: 1.6.13
-  solid-start: 0.2.23_nvx7auzs3gbrk7ajo4jzyvb4ue
+  solid-start: 0.2.23_74r3pb3ve6yvqdffkdayaoepk4
   undici: 5.20.0
 
 devDependencies:
@@ -1734,8 +1734,8 @@ packages:
     dependencies:
       solid-js: 1.6.13
 
-  /@solidjs/router/0.7.0_solid-js@1.6.13:
-    resolution: {integrity: sha512-8HI84twe5FjYRebSLMAhtkL9bRuTDIlxJK56kjfjU9WKGoUCTaWpCnkuj8Hqde1bWZ0X+GOZxKDfNkn1CjtjxA==}
+  /@solidjs/router/0.8.0_solid-js@1.6.13:
+    resolution: {integrity: sha512-gvKAfYbuq6rpuNM9E7qIRXOrUEHY4AoOiok3xo/Slw5ph+hvJ+gKRhQgW0Et8xcsq2NZcc4AvJF8VTBmXfwEyA==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
@@ -3924,7 +3924,7 @@ packages:
       polka: 1.0.0-next.22
       rollup: 3.17.3
       sirv: 2.0.2
-      solid-start: 0.2.23_nvx7auzs3gbrk7ajo4jzyvb4ue
+      solid-start: 0.2.23_74r3pb3ve6yvqdffkdayaoepk4
       terser: 5.16.5
       undici: 5.20.0
       vite: 4.1.4_@types+node@18.15.0
@@ -3944,11 +3944,11 @@ packages:
       rollup: 3.17.3
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.23_nvx7auzs3gbrk7ajo4jzyvb4ue
+      solid-start: 0.2.23_74r3pb3ve6yvqdffkdayaoepk4
       undici: 5.20.0
       vite: 4.1.4_@types+node@18.15.0
 
-  /solid-start/0.2.23_nvx7auzs3gbrk7ajo4jzyvb4ue:
+  /solid-start/0.2.23_74r3pb3ve6yvqdffkdayaoepk4:
     resolution: {integrity: sha512-dKTRFtpjskHFyLq9n6oJxqWHYL7H8w14y4+OgIR+57+lqb1N7289kZLTHrzWxWyzDkIG9V1s2MQtiDfIaBP/MQ==}
     hasBin: true
     peerDependencies:
@@ -3989,7 +3989,7 @@ packages:
       '@babel/preset-typescript': 7.21.0_@babel+core@7.21.0
       '@babel/template': 7.20.7
       '@solidjs/meta': 0.28.2_solid-js@1.6.13
-      '@solidjs/router': 0.7.0_solid-js@1.6.13
+      '@solidjs/router': 0.8.0_solid-js@1.6.13
       '@types/cookie': 0.5.1
       chokidar: 3.5.3
       compression: 1.7.4
