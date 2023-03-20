@@ -37,7 +37,7 @@
     "solid-start-node": "0.2.23",
     "solid-start-static": "^0.2.16",
     "typescript": "5.0.2",
-    "vite": "4.2.0",
+    "vite": "4.2.1",
     "vite-plugin-windicss": "1.8.10",
     "windicss": "3.5.6"
   }
