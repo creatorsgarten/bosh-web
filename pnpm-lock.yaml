@@ -11,7 +11,7 @@ specifiers:
   eslint: 8.36.0
   eslint-plugin-solid: 0.11.0
   postcss: 8.4.21
-  prettier: 2.8.4
+  prettier: 2.8.5
   solid-js: 1.6.15
   solid-start: 0.2.23
   solid-start-node: 0.2.23
@@ -38,7 +38,7 @@ devDependencies:
   eslint: 8.36.0
   eslint-plugin-solid: 0.11.0_j4766f7ecgqbon3u7zlxn5zszu
   postcss: 8.4.21
-  prettier: 2.8.4
+  prettier: 2.8.5
   solid-start-node: 0.2.23_ctvl7sshqwqcrd27p55jqwqhx4
   solid-start-static: 0.2.23_ctvl7sshqwqcrd27p55jqwqhx4
   typescript: 5.0.2
@@ -3444,8 +3444,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.5:
+    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
