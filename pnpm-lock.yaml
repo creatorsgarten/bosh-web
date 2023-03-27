@@ -13,7 +13,7 @@ specifiers:
   postcss: 8.4.21
   prettier: 2.8.7
   solid-js: 1.6.16
-  solid-start: 0.2.23
+  solid-start: 0.2.24
   solid-start-node: 0.2.24
   solid-start-static: ^0.2.16
   typescript: 5.0.2
@@ -26,7 +26,7 @@ dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.16
   '@solidjs/router': 0.8.2_solid-js@1.6.16
   solid-js: 1.6.16
-  solid-start: 0.2.23_kdlme2oo273oh35ge6mobenfh4
+  solid-start: 0.2.24_kdlme2oo273oh35ge6mobenfh4
   undici: 5.21.0
 
 devDependencies:
@@ -39,8 +39,8 @@ devDependencies:
   eslint-plugin-solid: 0.11.0_j4766f7ecgqbon3u7zlxn5zszu
   postcss: 8.4.21
   prettier: 2.8.7
-  solid-start-node: 0.2.24_k6fpiapxngvdu4b43olgdxlo44
-  solid-start-static: 0.2.23_k6fpiapxngvdu4b43olgdxlo44
+  solid-start-node: 0.2.24_e3jdctozwqr272oblu5r5mgpw4
+  solid-start-static: 0.2.23_e3jdctozwqr272oblu5r5mgpw4
   typescript: 5.0.2
   vite: 4.2.1_@types+node@18.15.10
   vite-plugin-windicss: 1.8.10_vite@4.2.1
@@ -3748,7 +3748,7 @@ packages:
   /solid-ssr/1.6.3:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
 
-  /solid-start-node/0.2.24_k6fpiapxngvdu4b43olgdxlo44:
+  /solid-start-node/0.2.24_e3jdctozwqr272oblu5r5mgpw4:
     resolution: {integrity: sha512-7IqgPbuOLNlSEsbuvx3/4Zeihk2oqHR3qNMAhaKeSwqksrmtXyrzM694f3Y26IqqVcQQhLBbQjM45NwPWK4iAw==}
     peerDependencies:
       solid-start: '*'
@@ -3762,14 +3762,14 @@ packages:
       polka: 1.0.0-next.22
       rollup: 3.19.1
       sirv: 2.0.2
-      solid-start: 0.2.23_kdlme2oo273oh35ge6mobenfh4
+      solid-start: 0.2.24_kdlme2oo273oh35ge6mobenfh4
       terser: 5.16.6
       undici: 5.21.0
       vite: 4.2.1_@types+node@18.15.10
     transitivePeerDependencies:
       - supports-color
 
-  /solid-start-static/0.2.23_k6fpiapxngvdu4b43olgdxlo44:
+  /solid-start-static/0.2.23_e3jdctozwqr272oblu5r5mgpw4:
     resolution: {integrity: sha512-isNB4ECm4vqVRaAzRKVoEHIlcs9YuzDMownqjgYhCrO70GGkLuwF4MrTLow1m/VPoe6ZK8YbvDcLB0a5hCejkA==}
     peerDependencies:
       solid-start: '*'
@@ -3782,16 +3782,16 @@ packages:
       rollup: 3.19.1
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.23_kdlme2oo273oh35ge6mobenfh4
+      solid-start: 0.2.24_kdlme2oo273oh35ge6mobenfh4
       undici: 5.21.0
       vite: 4.2.1_@types+node@18.15.10
 
-  /solid-start/0.2.23_kdlme2oo273oh35ge6mobenfh4:
-    resolution: {integrity: sha512-dKTRFtpjskHFyLq9n6oJxqWHYL7H8w14y4+OgIR+57+lqb1N7289kZLTHrzWxWyzDkIG9V1s2MQtiDfIaBP/MQ==}
+  /solid-start/0.2.24_kdlme2oo273oh35ge6mobenfh4:
+    resolution: {integrity: sha512-7nbl4mRiWwts7KN4ep1vT4eRcjacB6StdP/JalaCWtovpX0EctcEwXpJQeHKkGCL+J0n3M+aph0qkzUyJ5tD6Q==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
-      '@solidjs/router': ^0.7.0
+      '@solidjs/router': ^0.8.2
       solid-js: ^1.6.2
       solid-start-aws: '*'
       solid-start-cloudflare-pages: '*'
@@ -3849,8 +3849,8 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 2.0.2
       solid-js: 1.6.16
-      solid-start-node: 0.2.24_k6fpiapxngvdu4b43olgdxlo44
-      solid-start-static: 0.2.23_k6fpiapxngvdu4b43olgdxlo44
+      solid-start-node: 0.2.24_e3jdctozwqr272oblu5r5mgpw4
+      solid-start-static: 0.2.23_e3jdctozwqr272oblu5r5mgpw4
       terser: 5.16.6
       undici: 5.21.0
       vite: 4.2.1_@types+node@18.15.10
